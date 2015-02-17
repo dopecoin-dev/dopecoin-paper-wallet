@@ -1,0 +1,1 @@
+DopeCoinV3 paper wallet: http://dopecoin.com
