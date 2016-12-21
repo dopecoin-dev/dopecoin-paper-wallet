@@ -8,7 +8,7 @@
     
     Contact: Canton Becker / canton@gmail.com / www.cantonbecker.com
     
-    2014-2015 DopeCoin / dopecoin.com
+    2014-2016 DopeCoin / dopecoin.com
     
     generate-wallet.html is always distributed with a PGP signature "generate-wallet.html.sig" which you
     can use to validate the integrity and authorship of this file like so:
@@ -4797,7 +4797,7 @@ Bitcoin.Address = function (bytes) {
 };
 
 // Bitcoin.Address.networkVersion = window.networkVersion;
-Bitcoin.Address.networkVersion = 0x08; // DOPE main 0x08, DOPE test 0x6F
+Bitcoin.Address.networkVersion = 0x08; // DOPE main 0x1E, DOPE test 0x6F
 
 /**
 * Serialize this object as a standard Bitcoin address.
@@ -5176,7 +5176,7 @@ Bitcoin.ECKey = (function () {
 
 	// ECKey.privateKeyPrefix = window.privateKeyPrefix;
   
-     ECKey.privateKeyPrefix = 0x88; // DOPE main 0x88, DOPE test 0xEF
+     ECKey.privateKeyPrefix = 0x88; // DOPE main 0x9E, DOPE test 0xEF
 
 	/**
 	* Whether public keys should be returned compressed by default.
@@ -10859,7 +10859,7 @@ Find your scissors! The final step is to cut out your wallet, fold it, and seal 
 				<div>
 					<span class="item" id="footerlabeldonations"><b>Support <a href="http://dopecoin.com" target="_blank">DopeCoin</a>:</b></span>
                     <span class="item" style="font-size: 11px; font-family: 'Courier New', Courier, monospace;">
-                    <strong>DOPE</strong>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4X1GCKWxMGeJVNomE7CYDNjy4CQr3gqqkL<br />
+                    <strong>DOPE</strong>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D6PpyQekwXhKWhkKKs42BQwRfh7eY59xWu<br />
                     <strong>BTC</strong>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1BcfemPJ2Sug5sZ9fBaupUSmyCAESVLKSQ<br /><br /></span>
                     <span class="item" id="footerlabeldonations"><b>Support paper wallet <a href="https://bitcoinpaperwallet.com/#thanks" target="_blank">developers</a>:</b></span>
                     <span class="item" style="font-size: 11px; font-family: 'Courier New', Courier, monospace;">
@@ -10875,7 +10875,7 @@ Find your scissors! The final step is to cut out your wallet, fold it, and seal 
             
                 <div id="siginfo" style="display: none; position: absolute; top: -300px;">
   
-                    After downloading and extracting the <a href="https://github.com/dopecoin-dev/dopecoinv3-paper-wallet" target="_blank">ZIP package</a> for this generator, you should find a file named <b>generate-wallet.html.sig</b> 
+                    After downloading and extracting the <a href="https://github.com/dopecoin-dev/dopecoin-paper-wallet" target="_blank">ZIP package</a> for this generator, you should find a file named <b>generate-wallet.html.sig</b> 
                     which you can use to:
                     <ol><li> verify that <strong>generate-wallet.html</strong> hasn't been tampered with, and</li>
                     <li>get proof that it really was authored by Canton Becker (canton@gmail.com) whose public key and fingerprint can be confirmed at <a href="http://cantonbecker.com">cantonbecker.com</a>, bitcointalk.org, etc.</li>
@@ -10893,7 +10893,7 @@ Find your scissors! The final step is to cut out your wallet, fold it, and seal 
 
             	<span class="item"><b>Security &amp; signatures</b></span>
                 <span class="item" style="font-size: 90%;">For <a href="https://bitcoinpaperwallet.com/#security" target="_blank">secure wallet generation</a>, do not print wallets "live" from bitcoinpaperwallet.com.<br />Instead, download this generator from GitHub and run the HTML as a "local" file:</span>
-				<span class="item"><a href="https://github.com/dopecoin-dev/dopecoinv3-paper-wallet" target="_blank" id="footerlabelgithub"><strong>Secure Download</strong> (GitHub ZIP file)</a></span>
+				<span class="item"><a href="https://github.com/dopecoin-dev/dopecoin-paper-wallet/archive/master.zip" target="_blank" id="footerlabelgithub"><strong>Secure Download</strong> (GitHub ZIP file)</a></span>
                 
 				<span class="item" id="footerlabelsig" style="font-size: 90%;"><a href="#" onClick="document.getElementById('siginfo').style.display='block'; return(false);">Validate PGP/GPG signature</a></span>
 
@@ -10901,7 +10901,7 @@ Find your scissors! The final step is to cut out your wallet, fold it, and seal 
                 
 			</div>
 			<div class="copyright">
-				<span id="footerlabelcopyright1">&copy; Copyright 2014-2015 <a href="https://github.com/dopecoin-dev">dopecoin-dev</a> & <a href="https://dopecoin.com/">DopeCoin</a>. &copy; The folding wallet design and tamper-evident seals are Copyright 2014 by Canton Becker.</span>
+				<span id="footerlabelcopyright1">&copy; Copyright 2014-2016 <a href="https://github.com/dopecoin-dev">dopecoin-dev</a> & <a href="https://dopecoin.com/">DopeCoin</a>. &copy; The folding wallet design and tamper-evident seals are Copyright 2014 by Canton Becker.</span>
 				<span id="footerlabelcopyright2">This software may be modified and redistributed as per the MIT/GPL/BSD/Apache licenses described in the HTML source code. However, the folding paper wallet design itself may not be modified or redistributed for commercial purposes without permission.</span><br />
 				<span id="footerlabelnowarranty"><strong>This software and service is provided with no warranty. Use at your own risk.</strong></span>
 
