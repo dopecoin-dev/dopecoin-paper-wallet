@@ -1,1 +1,2 @@
-DopeCoinV3 paper wallet: http://dopecoin.com
+DopeCoinV4 Paper Wallet Generator
+============
